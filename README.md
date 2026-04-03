@@ -22,6 +22,12 @@ podman run -d \
   ghcr.io/parkour-vienna/distrust:$VERSION
 ```
 
+Or tools like podman-compose or docker compose:
+
+```sh
+podman-compose up -d distrust
+```
+
 ## Configuration
 
 ### Configuring Discourse
