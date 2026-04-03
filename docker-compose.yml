@@ -1,0 +1,8 @@
+services:
+  distrust:
+    build: .
+    container_name: distrust
+    volumes:
+      - ./distrust.yml:/distrust.yml:Z
+    ports:
+      - 3000:3000
