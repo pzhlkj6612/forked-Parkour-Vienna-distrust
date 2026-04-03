@@ -1,4 +1,4 @@
-FROM golang:1.24.1-alpine AS builder
+FROM docker.io/library/golang:1.24.1-alpine AS builder
 WORKDIR /source
 COPY . .
 RUN go build -o /distrust .
